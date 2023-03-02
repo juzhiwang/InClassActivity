@@ -1,13 +1,12 @@
 package edu.temple.inclassactivity
 
 import android.content.Context
-import android.view.Gravity
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 
-class CustomSpinnerAdapter(private val context: Context, private val items: Array<Int>) : BaseAdapter() {
+class CustomSpinnerAdapter(private val context: Context, items1: Int, private val items: Array<Int>) : BaseAdapter() {
 
     override fun getCount(): Int {
         return items.size
